@@ -1,0 +1,5 @@
+name = "Joshua Shu"
+SID = "23427344"
+email = "joshua.f.shu@gmail.com"
+github_name = "joshuashu"
+status = "enrolled"
