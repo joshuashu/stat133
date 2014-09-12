@@ -5,5 +5,19 @@
     "email": "joshua.f.shu@gmail.com", 
     "github_name": "joshuashu", 
     "status": "enrolled", 
-    "grades": {}
+    "grades": {
+        "hw1": {
+            "note": "", 
+            "hash": "bee5cf7f712adf855fec916730c657cae8db987c", 
+            "earned": 0, 
+            "possible": 14, 
+            "penalty": 0, 
+            "parts": {
+                "ex1": {
+                    "possible": 14, 
+                    "earned": 0
+                }
+            }
+        }
+    }
 }
