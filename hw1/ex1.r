@@ -24,7 +24,7 @@ two.plus.two <- 2 + 2
 # load in this data and store it as a variable named <ex1.data>. Set the header
 # argument to TRUE when reading in the csv.
 
-ex1.data <- read.csv("ex-1data.csv", header = TRUE)
+ex1.data <- read.csv("ex1-data.csv", header = TRUE)
 
 
 
