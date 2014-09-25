@@ -18,6 +18,23 @@
                     "earned": 14
                 }
             }
+        }, 
+        "hw2": {
+            "note": "", 
+            "hash": "9c86c3d25b40113811c96e99ee5fd79724844165", 
+            "earned": 14, 
+            "possible": 22, 
+            "penalty": 0, 
+            "parts": {
+                "hw2_fig": {
+                    "possible": 7, 
+                    "earned": 6
+                }, 
+                "hw2": {
+                    "possible": 15, 
+                    "earned": 8
+                }
+            }
         }
     }
 }

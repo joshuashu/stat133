@@ -1,0 +1,43 @@
+INFO:root:(1 points) Is the weight plot correct'? is y
+INFO:root:(1 points) Is the identity line plotted? is y
+INFO:root:(1 points) Is the identity line red? is y
+ERROR:root:(1 points) Checking Is the housing plot correct?
+ERROR:root:... Expecting: False
+ERROR:root:... But got:   n
+INFO:root:(1 points) Are the axes labeled? is y
+INFO:root:(1 points) Is the plot colored correctly? is y
+INFO:root:(1 points) Does the plot contain a legend? is y
+INFO:root:Executed R('load(\'../../instructor/assignments/hw2/hw2-tests.rda\')')
+INFO:root:(1 points) R('all.equal(OW_NHANES, sol$OW_NHANES)')[0] is True
+INFO:root:(1 points) R('all.equal(OWval, sol$OWval)')[0] is True
+INFO:root:(1 points) R('all.equal(OW_limit, sol$OW_limit)')[0] is True
+INFO:root:(1 points) R('all.equal(OW_NHANES2, sol$OW_NHANES2)')[0] is True
+ERROR:root:(1 points) Checking R('all.equal(OW_weight, sol$OW_weight)')[0]
+ERROR:root:... Expecting: True
+ERROR:root:... But got:   Mean relative difference: 0.03220448
+ERROR:root:(1 points) Checking R('all.equal(n.cities, sol$n.cities)')[0]
+ERROR:root:... Expecting: True
+ERROR:root:... But got:   Numeric: lengths (2, 1) differ
+ERROR:root:(1 points) Checking R('all.equal(n.housesale, sol$n.housesale)')[0]
+ERROR:root:... Expecting: True
+ERROR:root:... But got:   Numeric: lengths (2, 1) differ
+ERROR:root:(1 points) Checking R('all.equal(all.housing.variable, sol$all.housing.variables)')[0]
+ERROR:root:... Expecting: True
+ERROR:root:... But got:   15 string mismatches
+INFO:root:(1 points) R('all.equal(all.housing.variable, sol$all.housing.variables.obj)')[0] is True
+INFO:root:(1 points) R('all.equal(local.cities, sol$local.cities)')[0] is True
+INFO:root:(1 points) R('all.equal(some.housing.variables, sol$some.housing.variables)')[0] is True
+ERROR:root:(1 points) Checking R('all.equal(BerkArea$pricePsqft, sol$BerkArea.pps)')[0]
+ERROR:root:... Expecting: True
+ERROR:root:... But got:   Numeric: lengths (3982, 3999) differ
+ERROR:root:(1 points) Checking R('all.equal(dim(BerkArea), dim(sol$BerkArea))')[0]
+ERROR:root:... Expecting: True
+ERROR:root:... But got:   Mean relative difference: 0.004269211
+ERROR:root:(1 points) Checking R('all.equal(br5, sol$br5)')[0]
+ERROR:root:... Expecting: True
+ERROR:root:... But got:   Numeric: lengths (3982, 3999) differ
+INFO:root:(1 points) R('all.equal(rCols, sol$rCols)')[0] is True
+ERROR:root:(1 points) Checking R('all.equal(brCols, sol$brCols)')[0]
+ERROR:root:... Expecting: True
+ERROR:root:... But got:   Lengths (3982, 3999) differ (string compare on first 3982)
+INFO:root:You got a 14 out of 22.
