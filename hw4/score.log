@@ -1,0 +1,149 @@
+INFO:root:Executed R('load(\'../../instructor/assignments/hw4/hw4-tests2.rda\')')
+INFO:root:Executed R('truncate.r <- truncate(test$truncate, 0.3)')
+ERROR:root:(3 points) Checking R('all.equal(truncate.r, sol$truncate, tolerence=1e-4)')[0]
+ERROR:root:... Expecting: True
+ERROR:root:... But got:   target is NULL, current is numeric
+INFO:root:Executed R('outlierCutoff.r1 <- outlierCutoff(test$outlierCutoff.1)')
+ERROR:root:(1 points) Checking R('all.equal(outlierCutoff.r1, sol$outlierCutoff.1, check.attributes=F, tolerence=1e-4)')[0]
+ERROR:root:... Expecting: True
+ERROR:root:... But got:   target is NULL, current is matrix
+INFO:root:Executed R('outlierCutoff.r2 <- outlierCutoff(test$outlierCutoff.2)')
+ERROR:root:(3 points) Checking R('all.equal(outlierCutoff.r2, sol$outlierCutoff.2, check.attributes=F, tolerence=1e-4)')[0]
+ERROR:root:... Expecting: True
+ERROR:root:... But got:   target is NULL, current is matrix
+ERROR:root:(1 points) Checking R('all.equal(nrow(outlierCutoff.r2), 2)')[0]
+ERROR:root:... Expecting: True
+ERROR:root:... But got:   target is NULL, current is numeric
+ERROR:root:(1 points) Checking R('all.equal(class(outlierCutoff.r2), \'matrix\')')[0]
+ERROR:root:... Expecting: True
+ERROR:root:... But got:   1 string mismatch
+INFO:root:Executed R('removeOutliers.r1 <- removeOutliers(test$removeOutliers.1, 0.25)')
+ERROR:root:(1 points) Checking R('all.equal(removeOutliers.r1, sol$removeOutliers.1, check.attributes=F, tolerence=1e-4)')[0]
+ERROR:root:... Expecting: True
+ERROR:root:... But got:   target is NULL, current is data.frame
+INFO:root:Executed R('removeOutliers.r2 <- removeOutliers(test$removeOutliers.2, 0.3)')
+ERROR:root:(3 points) Checking R('all.equal(removeOutliers.r2, sol$removeOutliers.2, check.attributes=F, tolerence=1e-4)')[0]
+ERROR:root:... Expecting: True
+ERROR:root:... But got:   target is NULL, current is data.frame
+ERROR:root:(1 points) Checking R('all.equal(nrow(removeOutliers.r2), 880)')[0]
+ERROR:root:... Expecting: True
+ERROR:root:... But got:   target is NULL, current is numeric
+ERROR:root:(1 points) Checking R('all.equal(class(removeOutliers.r2), \'data.frame\')')[0]
+ERROR:root:... Expecting: True
+ERROR:root:... But got:   1 string mismatch
+INFO:root:Executed R('set.seed(47)')
+INFO:root:Executed R('simpleNormSim.r <- simpleNormSim(test$simpleNormSim)')
+ERROR:root:(3 points) Checking R('all.equal(simpleNormSim.r, sol$simpleNormSim)')[0]
+ERROR:root:... Expecting: True
+ERROR:root:... But got:   target is NULL, current is list
+ERROR:root:(1 points) Checking R('all.equal(length(simpleNormSim.r), 5)')[0]
+ERROR:root:... Expecting: True
+ERROR:root:... But got:   Mean absolute difference: 5
+ERROR:root:(1 points) Checking R('all.equal(class(simpleNormSim.r), \'list\')')[0]
+ERROR:root:... Expecting: True
+ERROR:root:... But got:   1 string mismatch
+INFO:root:Executed R('meanByLevel.r <- meanByLevel(test$meanByLevel)')
+ERROR:root:(3 points) Checking R('all.equal(meanByLevel.r, sol$meanByLevel, check.attributes=F, tolerence=1e-4)')[0]
+ERROR:root:... Expecting: True
+ERROR:root:... But got:   target is NULL, current is matrix
+ERROR:root:(1 points) Checking R('all.equal(dim(meanByLevel.r), c(2, 4))')[0]
+ERROR:root:... Expecting: True
+ERROR:root:... But got:   target is NULL, current is numeric
+ERROR:root:(1 points) Checking R('all.equal(class(meanByLevel.r), \'matrix\')')[0]
+ERROR:root:... Expecting: True
+ERROR:root:... But got:   1 string mismatch
+INFO:root:Executed R('stdLevelDiff.r1 <- stdLevelDiff(test$stdLevelDiff.1)')
+ERROR:root:(1 points) Checking R('all.equal(abs(stdLevelDiff.r1), abs(sol$stdLevelDiff.1), check.attributes=F, tolerence=1e-4)')[0]
+ERROR:root:... Expecting: True
+ERROR:root:... But got:   Traceback error
+ERROR:root:Got exception:
+Traceback (most recent call last):
+  File "/Users/Karl/anaconda/lib/python2.7/site-packages/gradebook/score.py", line 180, in check
+    result = eval(command, g)
+  File "<string>", line 1, in <module>
+  File "/Users/Karl/anaconda/lib/python2.7/site-packages/rpy2/robjects/__init__.py", line 246, in __call__
+    res = self.eval(p)
+  File "/Users/Karl/anaconda/lib/python2.7/site-packages/rpy2/robjects/functions.py", line 166, in __call__
+    return super(SignatureTranslatedFunction, self).__call__(*args, **kwargs)
+  File "/Users/Karl/anaconda/lib/python2.7/site-packages/rpy2/robjects/functions.py", line 99, in __call__
+    res = super(Function, self).__call__(*new_args, **new_kwargs)
+RRuntimeError: Error in abs(stdLevelDiff.r1) : 
+  non-numeric argument to mathematical function
+
+ERROR:root:Traceback (most recent call last):
+  File "/Users/Karl/anaconda/lib/python2.7/site-packages/gradebook/score.py", line 180, in check
+    result = eval(command, g)
+  File "<string>", line 1, in <module>
+  File "/Users/Karl/anaconda/lib/python2.7/site-packages/rpy2/robjects/__init__.py", line 246, in __call__
+    res = self.eval(p)
+  File "/Users/Karl/anaconda/lib/python2.7/site-packages/rpy2/robjects/functions.py", line 166, in __call__
+    return super(SignatureTranslatedFunction, self).__call__(*args, **kwargs)
+  File "/Users/Karl/anaconda/lib/python2.7/site-packages/rpy2/robjects/functions.py", line 99, in __call__
+    res = super(Function, self).__call__(*new_args, **new_kwargs)
+RRuntimeError: Error in abs(stdLevelDiff.r1) : 
+  non-numeric argument to mathematical function
+
+Traceback (most recent call last):
+  File "/Users/Karl/anaconda/lib/python2.7/site-packages/gradebook/score.py", line 180, in check
+    result = eval(command, g)
+  File "<string>", line 1, in <module>
+  File "/Users/Karl/anaconda/lib/python2.7/site-packages/rpy2/robjects/__init__.py", line 246, in __call__
+    res = self.eval(p)
+  File "/Users/Karl/anaconda/lib/python2.7/site-packages/rpy2/robjects/functions.py", line 166, in __call__
+    return super(SignatureTranslatedFunction, self).__call__(*args, **kwargs)
+  File "/Users/Karl/anaconda/lib/python2.7/site-packages/rpy2/robjects/functions.py", line 99, in __call__
+    res = super(Function, self).__call__(*new_args, **new_kwargs)
+RRuntimeError: Error in abs(stdLevelDiff.r1) : 
+  non-numeric argument to mathematical function
+
+INFO:root:Executed R('stdLevelDiff.r2 <- stdLevelDiff(test$stdLevelDiff.2)')
+ERROR:root:(3 points) Checking R('all.equal(abs(stdLevelDiff.r2), abs(sol$stdLevelDiff.2), check.attributes=F, tolerence=1e-4)')[0]
+ERROR:root:... Expecting: True
+ERROR:root:... But got:   Traceback error
+ERROR:root:Got exception:
+Traceback (most recent call last):
+  File "/Users/Karl/anaconda/lib/python2.7/site-packages/gradebook/score.py", line 180, in check
+    result = eval(command, g)
+  File "<string>", line 1, in <module>
+  File "/Users/Karl/anaconda/lib/python2.7/site-packages/rpy2/robjects/__init__.py", line 246, in __call__
+    res = self.eval(p)
+  File "/Users/Karl/anaconda/lib/python2.7/site-packages/rpy2/robjects/functions.py", line 166, in __call__
+    return super(SignatureTranslatedFunction, self).__call__(*args, **kwargs)
+  File "/Users/Karl/anaconda/lib/python2.7/site-packages/rpy2/robjects/functions.py", line 99, in __call__
+    res = super(Function, self).__call__(*new_args, **new_kwargs)
+RRuntimeError: Error in abs(stdLevelDiff.r2) : 
+  non-numeric argument to mathematical function
+
+ERROR:root:Traceback (most recent call last):
+  File "/Users/Karl/anaconda/lib/python2.7/site-packages/gradebook/score.py", line 180, in check
+    result = eval(command, g)
+  File "<string>", line 1, in <module>
+  File "/Users/Karl/anaconda/lib/python2.7/site-packages/rpy2/robjects/__init__.py", line 246, in __call__
+    res = self.eval(p)
+  File "/Users/Karl/anaconda/lib/python2.7/site-packages/rpy2/robjects/functions.py", line 166, in __call__
+    return super(SignatureTranslatedFunction, self).__call__(*args, **kwargs)
+  File "/Users/Karl/anaconda/lib/python2.7/site-packages/rpy2/robjects/functions.py", line 99, in __call__
+    res = super(Function, self).__call__(*new_args, **new_kwargs)
+RRuntimeError: Error in abs(stdLevelDiff.r2) : 
+  non-numeric argument to mathematical function
+
+Traceback (most recent call last):
+  File "/Users/Karl/anaconda/lib/python2.7/site-packages/gradebook/score.py", line 180, in check
+    result = eval(command, g)
+  File "<string>", line 1, in <module>
+  File "/Users/Karl/anaconda/lib/python2.7/site-packages/rpy2/robjects/__init__.py", line 246, in __call__
+    res = self.eval(p)
+  File "/Users/Karl/anaconda/lib/python2.7/site-packages/rpy2/robjects/functions.py", line 166, in __call__
+    return super(SignatureTranslatedFunction, self).__call__(*args, **kwargs)
+  File "/Users/Karl/anaconda/lib/python2.7/site-packages/rpy2/robjects/functions.py", line 99, in __call__
+    res = super(Function, self).__call__(*new_args, **new_kwargs)
+RRuntimeError: Error in abs(stdLevelDiff.r2) : 
+  non-numeric argument to mathematical function
+
+ERROR:root:(1 points) Checking R('all.equal(dim(stdLevelDiff.r2), c(2, 4))')[0]
+ERROR:root:... Expecting: True
+ERROR:root:... But got:   target is NULL, current is numeric
+ERROR:root:(1 points) Checking R('all.equal(class(stdLevelDiff.r2), \'matrix\')')[0]
+ERROR:root:... Expecting: True
+ERROR:root:... But got:   1 string mismatch
+INFO:root:You got a 0 out of 31.
