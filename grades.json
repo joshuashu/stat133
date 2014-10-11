@@ -4,7 +4,7 @@
     "name": "Joshua Shu", 
     "email": "joshua.f.shu@gmail.com", 
     "github_name": "joshuashu", 
-    "status": "enrolled", 
+    "status": "unenrolled", 
     "grades": {
         "hw1": {
             "note": "", 
@@ -52,6 +52,20 @@
                     "earned": 0
                 }
             }
+        }, 
+        "hw4": {
+            "note": "", 
+            "hash": "f11ea3dad6351f9054f16be45cddc0f8094f7562", 
+            "earned": 0, 
+            "possible": 31, 
+            "penalty": 0, 
+            "parts": {
+                "hw4": {
+                    "possible": 31, 
+                    "earned": 0
+                }
+            }
         }
-    }
+    }, 
+    "section": "audit"
 }
