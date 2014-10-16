@@ -65,6 +65,19 @@
                     "earned": 0
                 }
             }
+        }, 
+        "hw5": {
+            "note": "", 
+            "hash": "9f39391e133a5dca94c3d1b0159ed54ff292533b", 
+            "earned": 0, 
+            "possible": 16, 
+            "penalty": 0, 
+            "parts": {
+                "hw5": {
+                    "possible": 16, 
+                    "earned": 0
+                }
+            }
         }
     }, 
     "section": "audit"
