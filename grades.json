@@ -78,6 +78,23 @@
                     "earned": 0
                 }
             }
+        }, 
+        "midterm": {
+            "note": "", 
+            "hash": "e0f4635f3788d1a6e1bb57d49b09c96e099bd0f8", 
+            "earned": 0, 
+            "possible": 24, 
+            "penalty": 0, 
+            "parts": {
+                "midterm_fig": {
+                    "possible": 7, 
+                    "earned": 0
+                }, 
+                "midterm": {
+                    "possible": 17, 
+                    "earned": 0
+                }
+            }
         }
     }, 
     "section": "audit"
