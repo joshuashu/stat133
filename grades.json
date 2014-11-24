@@ -95,6 +95,23 @@
                     "earned": 0
                 }
             }
+        }, 
+        "hw6": {
+            "note": "", 
+            "hash": "c344ec66886b35e176fa5285e8d8458fbb050855", 
+            "earned": 0, 
+            "possible": 20, 
+            "penalty": 0, 
+            "parts": {
+                "bml_rep": {
+                    "possible": 5, 
+                    "earned": 0
+                }, 
+                "bml_functions": {
+                    "possible": 15, 
+                    "earned": 0
+                }
+            }
         }
     }, 
     "section": "audit"
