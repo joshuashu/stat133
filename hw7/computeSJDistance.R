@@ -29,7 +29,7 @@ D.BasicKullbackLeibler = function(p, q)
   p = p[tmp]
   q = q[tmp]
 
-  sum(- p*log(q) + p*log(p) )
+  sum(- p*log(q) + p*log(p), na.rm=T )
 }
 
 D.JensenShannon = function(p, q)
