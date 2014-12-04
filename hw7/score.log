@@ -1,0 +1,327 @@
+INFO:root:Executed R('load(\'../../instructor/assignments/hw7/hw7-test.rda\')')
+ERROR:root:(2 points) Checking R('all.equal(n.speeches, sol$n.speeches)')[0]
+ERROR:root:... Expecting: True
+ERROR:root:... But got:   Traceback error
+ERROR:root:Got exception:
+Traceback (most recent call last):
+  File "c:\Users\User\Anaconda\lib\site-packages\gradebook\score.py", line 180, in check
+    result = eval(command, g)
+  File "<string>", line 1, in <module>
+  File "c:\Users\User\Anaconda\lib\site-packages\rpy2\robjects\__init__.py", line 246, in __call__
+    res = self.eval(p)
+  File "c:\Users\User\Anaconda\lib\site-packages\rpy2\robjects\functions.py", line 166, in __call__
+    return super(SignatureTranslatedFunction, self).__call__(*args, **kwargs)
+  File "c:\Users\User\Anaconda\lib\site-packages\rpy2\robjects\functions.py", line 99, in __call__
+    res = super(Function, self).__call__(*new_args, **new_kwargs)
+RRuntimeError: Error in all.equal(n.speeches, sol$n.speeches) : 
+  object 'n.speeches' not found
+
+ERROR:root:Traceback (most recent call last):
+  File "c:\Users\User\Anaconda\lib\site-packages\gradebook\score.py", line 180, in check
+    result = eval(command, g)
+  File "<string>", line 1, in <module>
+  File "c:\Users\User\Anaconda\lib\site-packages\rpy2\robjects\__init__.py", line 246, in __call__
+    res = self.eval(p)
+  File "c:\Users\User\Anaconda\lib\site-packages\rpy2\robjects\functions.py", line 166, in __call__
+    return super(SignatureTranslatedFunction, self).__call__(*args, **kwargs)
+  File "c:\Users\User\Anaconda\lib\site-packages\rpy2\robjects\functions.py", line 99, in __call__
+    res = super(Function, self).__call__(*new_args, **new_kwargs)
+RRuntimeError: Error in all.equal(n.speeches, sol$n.speeches) : 
+  object 'n.speeches' not found
+
+Traceback (most recent call last):
+  File "c:\Users\User\Anaconda\lib\site-packages\gradebook\score.py", line 180, in check
+    result = eval(command, g)
+  File "<string>", line 1, in <module>
+  File "c:\Users\User\Anaconda\lib\site-packages\rpy2\robjects\__init__.py", line 246, in __call__
+    res = self.eval(p)
+  File "c:\Users\User\Anaconda\lib\site-packages\rpy2\robjects\functions.py", line 166, in __call__
+    return super(SignatureTranslatedFunction, self).__call__(*args, **kwargs)
+  File "c:\Users\User\Anaconda\lib\site-packages\rpy2\robjects\functions.py", line 99, in __call__
+    res = super(Function, self).__call__(*new_args, **new_kwargs)
+RRuntimeError: Error in all.equal(n.speeches, sol$n.speeches) : 
+  object 'n.speeches' not found
+
+ERROR:root:(1 points) Checking R('all.equal(class(presidents), class(sol$presidents))')[0]
+ERROR:root:... Expecting: True
+ERROR:root:... But got:   1 string mismatch
+ERROR:root:(1 points) Checking R('all.equal(presidents, sol$presidents)')[0]
+ERROR:root:... Expecting: True
+ERROR:root:... But got:   Modes: numeric, character
+ERROR:root:(1 points) Checking R('all.equal(class(tempDates), class(sol$tempDates))')[0]
+ERROR:root:... Expecting: True
+ERROR:root:... But got:   Traceback error
+ERROR:root:Got exception:
+Traceback (most recent call last):
+  File "c:\Users\User\Anaconda\lib\site-packages\gradebook\score.py", line 180, in check
+    result = eval(command, g)
+  File "<string>", line 1, in <module>
+  File "c:\Users\User\Anaconda\lib\site-packages\rpy2\robjects\__init__.py", line 246, in __call__
+    res = self.eval(p)
+  File "c:\Users\User\Anaconda\lib\site-packages\rpy2\robjects\functions.py", line 166, in __call__
+    return super(SignatureTranslatedFunction, self).__call__(*args, **kwargs)
+  File "c:\Users\User\Anaconda\lib\site-packages\rpy2\robjects\functions.py", line 99, in __call__
+    res = super(Function, self).__call__(*new_args, **new_kwargs)
+RRuntimeError: Error in all.equal(class(tempDates), class(sol$tempDates)) : 
+  object 'tempDates' not found
+
+ERROR:root:Traceback (most recent call last):
+  File "c:\Users\User\Anaconda\lib\site-packages\gradebook\score.py", line 180, in check
+    result = eval(command, g)
+  File "<string>", line 1, in <module>
+  File "c:\Users\User\Anaconda\lib\site-packages\rpy2\robjects\__init__.py", line 246, in __call__
+    res = self.eval(p)
+  File "c:\Users\User\Anaconda\lib\site-packages\rpy2\robjects\functions.py", line 166, in __call__
+    return super(SignatureTranslatedFunction, self).__call__(*args, **kwargs)
+  File "c:\Users\User\Anaconda\lib\site-packages\rpy2\robjects\functions.py", line 99, in __call__
+    res = super(Function, self).__call__(*new_args, **new_kwargs)
+RRuntimeError: Error in all.equal(class(tempDates), class(sol$tempDates)) : 
+  object 'tempDates' not found
+
+Traceback (most recent call last):
+  File "c:\Users\User\Anaconda\lib\site-packages\gradebook\score.py", line 180, in check
+    result = eval(command, g)
+  File "<string>", line 1, in <module>
+  File "c:\Users\User\Anaconda\lib\site-packages\rpy2\robjects\__init__.py", line 246, in __call__
+    res = self.eval(p)
+  File "c:\Users\User\Anaconda\lib\site-packages\rpy2\robjects\functions.py", line 166, in __call__
+    return super(SignatureTranslatedFunction, self).__call__(*args, **kwargs)
+  File "c:\Users\User\Anaconda\lib\site-packages\rpy2\robjects\functions.py", line 99, in __call__
+    res = super(Function, self).__call__(*new_args, **new_kwargs)
+RRuntimeError: Error in all.equal(class(tempDates), class(sol$tempDates)) : 
+  object 'tempDates' not found
+
+ERROR:root:(1 points) Checking R('all.equal(tempDates, sol$tempDates)')[0]
+ERROR:root:... Expecting: True
+ERROR:root:... But got:   Traceback error
+ERROR:root:Got exception:
+Traceback (most recent call last):
+  File "c:\Users\User\Anaconda\lib\site-packages\gradebook\score.py", line 180, in check
+    result = eval(command, g)
+  File "<string>", line 1, in <module>
+  File "c:\Users\User\Anaconda\lib\site-packages\rpy2\robjects\__init__.py", line 246, in __call__
+    res = self.eval(p)
+  File "c:\Users\User\Anaconda\lib\site-packages\rpy2\robjects\functions.py", line 166, in __call__
+    return super(SignatureTranslatedFunction, self).__call__(*args, **kwargs)
+  File "c:\Users\User\Anaconda\lib\site-packages\rpy2\robjects\functions.py", line 99, in __call__
+    res = super(Function, self).__call__(*new_args, **new_kwargs)
+RRuntimeError: Error in all.equal(tempDates, sol$tempDates) : 
+  object 'tempDates' not found
+
+ERROR:root:Traceback (most recent call last):
+  File "c:\Users\User\Anaconda\lib\site-packages\gradebook\score.py", line 180, in check
+    result = eval(command, g)
+  File "<string>", line 1, in <module>
+  File "c:\Users\User\Anaconda\lib\site-packages\rpy2\robjects\__init__.py", line 246, in __call__
+    res = self.eval(p)
+  File "c:\Users\User\Anaconda\lib\site-packages\rpy2\robjects\functions.py", line 166, in __call__
+    return super(SignatureTranslatedFunction, self).__call__(*args, **kwargs)
+  File "c:\Users\User\Anaconda\lib\site-packages\rpy2\robjects\functions.py", line 99, in __call__
+    res = super(Function, self).__call__(*new_args, **new_kwargs)
+RRuntimeError: Error in all.equal(tempDates, sol$tempDates) : 
+  object 'tempDates' not found
+
+Traceback (most recent call last):
+  File "c:\Users\User\Anaconda\lib\site-packages\gradebook\score.py", line 180, in check
+    result = eval(command, g)
+  File "<string>", line 1, in <module>
+  File "c:\Users\User\Anaconda\lib\site-packages\rpy2\robjects\__init__.py", line 246, in __call__
+    res = self.eval(p)
+  File "c:\Users\User\Anaconda\lib\site-packages\rpy2\robjects\functions.py", line 166, in __call__
+    return super(SignatureTranslatedFunction, self).__call__(*args, **kwargs)
+  File "c:\Users\User\Anaconda\lib\site-packages\rpy2\robjects\functions.py", line 99, in __call__
+    res = super(Function, self).__call__(*new_args, **new_kwargs)
+RRuntimeError: Error in all.equal(tempDates, sol$tempDates) : 
+  object 'tempDates' not found
+
+ERROR:root:(1 points) Checking R('all.equal(class(speechYr), class(sol$speechYr))')[0]
+ERROR:root:... Expecting: True
+ERROR:root:... But got:   Traceback error
+ERROR:root:Got exception:
+Traceback (most recent call last):
+  File "c:\Users\User\Anaconda\lib\site-packages\gradebook\score.py", line 180, in check
+    result = eval(command, g)
+  File "<string>", line 1, in <module>
+  File "c:\Users\User\Anaconda\lib\site-packages\rpy2\robjects\__init__.py", line 246, in __call__
+    res = self.eval(p)
+  File "c:\Users\User\Anaconda\lib\site-packages\rpy2\robjects\functions.py", line 166, in __call__
+    return super(SignatureTranslatedFunction, self).__call__(*args, **kwargs)
+  File "c:\Users\User\Anaconda\lib\site-packages\rpy2\robjects\functions.py", line 99, in __call__
+    res = super(Function, self).__call__(*new_args, **new_kwargs)
+RRuntimeError: Error in all.equal(class(speechYr), class(sol$speechYr)) : 
+  object 'speechYr' not found
+
+ERROR:root:Traceback (most recent call last):
+  File "c:\Users\User\Anaconda\lib\site-packages\gradebook\score.py", line 180, in check
+    result = eval(command, g)
+  File "<string>", line 1, in <module>
+  File "c:\Users\User\Anaconda\lib\site-packages\rpy2\robjects\__init__.py", line 246, in __call__
+    res = self.eval(p)
+  File "c:\Users\User\Anaconda\lib\site-packages\rpy2\robjects\functions.py", line 166, in __call__
+    return super(SignatureTranslatedFunction, self).__call__(*args, **kwargs)
+  File "c:\Users\User\Anaconda\lib\site-packages\rpy2\robjects\functions.py", line 99, in __call__
+    res = super(Function, self).__call__(*new_args, **new_kwargs)
+RRuntimeError: Error in all.equal(class(speechYr), class(sol$speechYr)) : 
+  object 'speechYr' not found
+
+Traceback (most recent call last):
+  File "c:\Users\User\Anaconda\lib\site-packages\gradebook\score.py", line 180, in check
+    result = eval(command, g)
+  File "<string>", line 1, in <module>
+  File "c:\Users\User\Anaconda\lib\site-packages\rpy2\robjects\__init__.py", line 246, in __call__
+    res = self.eval(p)
+  File "c:\Users\User\Anaconda\lib\site-packages\rpy2\robjects\functions.py", line 166, in __call__
+    return super(SignatureTranslatedFunction, self).__call__(*args, **kwargs)
+  File "c:\Users\User\Anaconda\lib\site-packages\rpy2\robjects\functions.py", line 99, in __call__
+    res = super(Function, self).__call__(*new_args, **new_kwargs)
+RRuntimeError: Error in all.equal(class(speechYr), class(sol$speechYr)) : 
+  object 'speechYr' not found
+
+ERROR:root:(1 points) Checking R('all.equal(speechYr, sol$speechYr)')[0]
+ERROR:root:... Expecting: True
+ERROR:root:... But got:   Traceback error
+ERROR:root:Got exception:
+Traceback (most recent call last):
+  File "c:\Users\User\Anaconda\lib\site-packages\gradebook\score.py", line 180, in check
+    result = eval(command, g)
+  File "<string>", line 1, in <module>
+  File "c:\Users\User\Anaconda\lib\site-packages\rpy2\robjects\__init__.py", line 246, in __call__
+    res = self.eval(p)
+  File "c:\Users\User\Anaconda\lib\site-packages\rpy2\robjects\functions.py", line 166, in __call__
+    return super(SignatureTranslatedFunction, self).__call__(*args, **kwargs)
+  File "c:\Users\User\Anaconda\lib\site-packages\rpy2\robjects\functions.py", line 99, in __call__
+    res = super(Function, self).__call__(*new_args, **new_kwargs)
+RRuntimeError: Error in all.equal(speechYr, sol$speechYr) : object 'speechYr' not found
+
+ERROR:root:Traceback (most recent call last):
+  File "c:\Users\User\Anaconda\lib\site-packages\gradebook\score.py", line 180, in check
+    result = eval(command, g)
+  File "<string>", line 1, in <module>
+  File "c:\Users\User\Anaconda\lib\site-packages\rpy2\robjects\__init__.py", line 246, in __call__
+    res = self.eval(p)
+  File "c:\Users\User\Anaconda\lib\site-packages\rpy2\robjects\functions.py", line 166, in __call__
+    return super(SignatureTranslatedFunction, self).__call__(*args, **kwargs)
+  File "c:\Users\User\Anaconda\lib\site-packages\rpy2\robjects\functions.py", line 99, in __call__
+    res = super(Function, self).__call__(*new_args, **new_kwargs)
+RRuntimeError: Error in all.equal(speechYr, sol$speechYr) : object 'speechYr' not found
+
+Traceback (most recent call last):
+  File "c:\Users\User\Anaconda\lib\site-packages\gradebook\score.py", line 180, in check
+    result = eval(command, g)
+  File "<string>", line 1, in <module>
+  File "c:\Users\User\Anaconda\lib\site-packages\rpy2\robjects\__init__.py", line 246, in __call__
+    res = self.eval(p)
+  File "c:\Users\User\Anaconda\lib\site-packages\rpy2\robjects\functions.py", line 166, in __call__
+    return super(SignatureTranslatedFunction, self).__call__(*args, **kwargs)
+  File "c:\Users\User\Anaconda\lib\site-packages\rpy2\robjects\functions.py", line 99, in __call__
+    res = super(Function, self).__call__(*new_args, **new_kwargs)
+RRuntimeError: Error in all.equal(speechYr, sol$speechYr) : object 'speechYr' not found
+
+ERROR:root:(1 points) Checking R('all.equal(class(speechMo), class(sol$speechMo))')[0]
+ERROR:root:... Expecting: True
+ERROR:root:... But got:   Traceback error
+ERROR:root:Got exception:
+Traceback (most recent call last):
+  File "c:\Users\User\Anaconda\lib\site-packages\gradebook\score.py", line 180, in check
+    result = eval(command, g)
+  File "<string>", line 1, in <module>
+  File "c:\Users\User\Anaconda\lib\site-packages\rpy2\robjects\__init__.py", line 246, in __call__
+    res = self.eval(p)
+  File "c:\Users\User\Anaconda\lib\site-packages\rpy2\robjects\functions.py", line 166, in __call__
+    return super(SignatureTranslatedFunction, self).__call__(*args, **kwargs)
+  File "c:\Users\User\Anaconda\lib\site-packages\rpy2\robjects\functions.py", line 99, in __call__
+    res = super(Function, self).__call__(*new_args, **new_kwargs)
+RRuntimeError: Error in all.equal(class(speechMo), class(sol$speechMo)) : 
+  object 'speechMo' not found
+
+ERROR:root:Traceback (most recent call last):
+  File "c:\Users\User\Anaconda\lib\site-packages\gradebook\score.py", line 180, in check
+    result = eval(command, g)
+  File "<string>", line 1, in <module>
+  File "c:\Users\User\Anaconda\lib\site-packages\rpy2\robjects\__init__.py", line 246, in __call__
+    res = self.eval(p)
+  File "c:\Users\User\Anaconda\lib\site-packages\rpy2\robjects\functions.py", line 166, in __call__
+    return super(SignatureTranslatedFunction, self).__call__(*args, **kwargs)
+  File "c:\Users\User\Anaconda\lib\site-packages\rpy2\robjects\functions.py", line 99, in __call__
+    res = super(Function, self).__call__(*new_args, **new_kwargs)
+RRuntimeError: Error in all.equal(class(speechMo), class(sol$speechMo)) : 
+  object 'speechMo' not found
+
+Traceback (most recent call last):
+  File "c:\Users\User\Anaconda\lib\site-packages\gradebook\score.py", line 180, in check
+    result = eval(command, g)
+  File "<string>", line 1, in <module>
+  File "c:\Users\User\Anaconda\lib\site-packages\rpy2\robjects\__init__.py", line 246, in __call__
+    res = self.eval(p)
+  File "c:\Users\User\Anaconda\lib\site-packages\rpy2\robjects\functions.py", line 166, in __call__
+    return super(SignatureTranslatedFunction, self).__call__(*args, **kwargs)
+  File "c:\Users\User\Anaconda\lib\site-packages\rpy2\robjects\functions.py", line 99, in __call__
+    res = super(Function, self).__call__(*new_args, **new_kwargs)
+RRuntimeError: Error in all.equal(class(speechMo), class(sol$speechMo)) : 
+  object 'speechMo' not found
+
+ERROR:root:(1 points) Checking R('all.equal(speechMo, sol$speechMo)')[0]
+ERROR:root:... Expecting: True
+ERROR:root:... But got:   Traceback error
+ERROR:root:Got exception:
+Traceback (most recent call last):
+  File "c:\Users\User\Anaconda\lib\site-packages\gradebook\score.py", line 180, in check
+    result = eval(command, g)
+  File "<string>", line 1, in <module>
+  File "c:\Users\User\Anaconda\lib\site-packages\rpy2\robjects\__init__.py", line 246, in __call__
+    res = self.eval(p)
+  File "c:\Users\User\Anaconda\lib\site-packages\rpy2\robjects\functions.py", line 166, in __call__
+    return super(SignatureTranslatedFunction, self).__call__(*args, **kwargs)
+  File "c:\Users\User\Anaconda\lib\site-packages\rpy2\robjects\functions.py", line 99, in __call__
+    res = super(Function, self).__call__(*new_args, **new_kwargs)
+RRuntimeError: Error in all.equal(speechMo, sol$speechMo) : object 'speechMo' not found
+
+ERROR:root:Traceback (most recent call last):
+  File "c:\Users\User\Anaconda\lib\site-packages\gradebook\score.py", line 180, in check
+    result = eval(command, g)
+  File "<string>", line 1, in <module>
+  File "c:\Users\User\Anaconda\lib\site-packages\rpy2\robjects\__init__.py", line 246, in __call__
+    res = self.eval(p)
+  File "c:\Users\User\Anaconda\lib\site-packages\rpy2\robjects\functions.py", line 166, in __call__
+    return super(SignatureTranslatedFunction, self).__call__(*args, **kwargs)
+  File "c:\Users\User\Anaconda\lib\site-packages\rpy2\robjects\functions.py", line 99, in __call__
+    res = super(Function, self).__call__(*new_args, **new_kwargs)
+RRuntimeError: Error in all.equal(speechMo, sol$speechMo) : object 'speechMo' not found
+
+Traceback (most recent call last):
+  File "c:\Users\User\Anaconda\lib\site-packages\gradebook\score.py", line 180, in check
+    result = eval(command, g)
+  File "<string>", line 1, in <module>
+  File "c:\Users\User\Anaconda\lib\site-packages\rpy2\robjects\__init__.py", line 246, in __call__
+    res = self.eval(p)
+  File "c:\Users\User\Anaconda\lib\site-packages\rpy2\robjects\functions.py", line 166, in __call__
+    return super(SignatureTranslatedFunction, self).__call__(*args, **kwargs)
+  File "c:\Users\User\Anaconda\lib\site-packages\rpy2\robjects\functions.py", line 99, in __call__
+    res = super(Function, self).__call__(*new_args, **new_kwargs)
+RRuntimeError: Error in all.equal(speechMo, sol$speechMo) : object 'speechMo' not found
+
+ERROR:root:(1 points) Checking a simple plot of mds?
+ERROR:root:... Expecting: False
+ERROR:root:... But got:   n
+ERROR:root:(1 points) Checking a more complicated plot of mds?
+ERROR:root:... Expecting: False
+ERROR:root:... But got:   n
+ERROR:root:(1 points) Checking hierarchical clustering?
+ERROR:root:... Expecting: False
+ERROR:root:... But got:   n
+ERROR:root:(1 points) Checking speech year vs number of sentences?
+ERROR:root:... Expecting: False
+ERROR:root:... But got:   n
+ERROR:root:(1 points) Checking speech year vs number of words?
+ERROR:root:... Expecting: False
+ERROR:root:... But got:   n
+ERROR:root:(1 points) Checking speech year vs number of characters?
+ERROR:root:... Expecting: False
+ERROR:root:... But got:   n
+ERROR:root:(1 points) Checking speech year vs avg word length?
+ERROR:root:... Expecting: False
+ERROR:root:... But got:   n
+ERROR:root:(1 points) Checking speech year vs avg sentence length?
+ERROR:root:... Expecting: False
+ERROR:root:... But got:   n
+INFO:root:You got a 0 out of 18.

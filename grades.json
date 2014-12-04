@@ -112,6 +112,23 @@
                     "earned": 0
                 }
             }
+        }, 
+        "hw7": {
+            "note": "", 
+            "hash": "060ca2d4018a1850b50d2891f19e2587cc800a4c", 
+            "earned": 0, 
+            "possible": 18, 
+            "penalty": 0, 
+            "parts": {
+                "hw7": {
+                    "possible": 10, 
+                    "earned": 0
+                }, 
+                "hw7_plots": {
+                    "possible": 8, 
+                    "earned": 0
+                }
+            }
         }
     }, 
     "section": "audit"
