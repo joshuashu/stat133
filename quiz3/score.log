@@ -1,0 +1,71 @@
+INFO:root:Executed R('load(\'../../instructor/assignments/quiz3/quiz3-tests.rda\')')
+ERROR:root:(1 points) Checking R('all.equal(numAtElements(test$test1), sol$test1)')[0]
+ERROR:root:... Expecting: True
+ERROR:root:... But got:   target is NULL, current is numeric
+ERROR:root:(1 points) Checking R('all.equal(numAtElements(test$test2), sol$test2)')[0]
+ERROR:root:... Expecting: True
+ERROR:root:... But got:   target is NULL, current is numeric
+ERROR:root:(1 points) Checking R('all.equal(numAtElements(test$test3), sol$test3)')[0]
+ERROR:root:... Expecting: True
+ERROR:root:... But got:   target is NULL, current is numeric
+ERROR:root:(1 points) Checking R('all.equal(unexclaim(test$test4), sol$test4)')[0]
+ERROR:root:... Expecting: True
+ERROR:root:... But got:   target is NULL, current is character
+ERROR:root:(1 points) Checking R('all.equal(unexclaim(test$test5), sol$test5)')[0]
+ERROR:root:... Expecting: True
+ERROR:root:... But got:   target is NULL, current is character
+ERROR:root:(1 points) Checking R('all.equal(unexclaim(test$test6), sol$test6)')[0]
+ERROR:root:... Expecting: True
+ERROR:root:... But got:   target is NULL, current is character
+ERROR:root:(1 points) Checking R('all.equal(updateDate(test$test7[[1]], test$test7[[2]]), sol$test7)')[0]
+ERROR:root:... Expecting: True
+ERROR:root:... But got:   target is NULL, current is character
+ERROR:root:(1 points) Checking R('all.equal(updateDate(test$test8[[1]], test$test8[[2]]), sol$test8)')[0]
+ERROR:root:... Expecting: True
+ERROR:root:... But got:   target is NULL, current is character
+ERROR:root:(1 points) Checking R('all.equal(updateDate(test$test9[[1]], test$test9[[2]]), sol$test9)')[0]
+ERROR:root:... Expecting: True
+ERROR:root:... But got:   target is NULL, current is character
+ERROR:root:(1 points) Checking R('all.equal(countcatdog(test$test10), sol$test10)')[0]
+ERROR:root:... Expecting: True
+ERROR:root:... But got:   target is NULL, current is numeric
+INFO:root:Executed R('temp <- countcatdog(test$test11)')
+ERROR:root:(1 points) Checking R('all.equal(names(temp), names(sol$test11))')[0]
+ERROR:root:... Expecting: True
+ERROR:root:... But got:   target is NULL, current is character
+ERROR:root:(1 points) Checking R('all.equal(temp, sol$test11, check.attributes = F)')[0]
+ERROR:root:... Expecting: True
+ERROR:root:... But got:   target is NULL, current is numeric
+ERROR:root:(1 points) Checking R('all.equal(countcatdog(test$test12), sol$test12)')[0]
+ERROR:root:... Expecting: True
+ERROR:root:... But got:   target is NULL, current is numeric
+ERROR:root:(1 points) Checking R('all.equal(sumDigits(test$test13), 7)')[0]
+ERROR:root:... Expecting: True
+ERROR:root:... But got:   target is NULL, current is numeric
+ERROR:root:(1 points) Checking R('all.equal(sumDigits(test$test14), 0)')[0]
+ERROR:root:... Expecting: True
+ERROR:root:... But got:   target is NULL, current is numeric
+ERROR:root:(1 points) Checking R('all.equal(sumDigits(test$test15), 12)')[0]
+ERROR:root:... Expecting: True
+ERROR:root:... But got:   target is NULL, current is numeric
+ERROR:root:(1 points) Checking R('all.equal(dnaTransform(test$test16), sol$test16)')[0]
+ERROR:root:... Expecting: True
+ERROR:root:... But got:   target is NULL, current is character
+ERROR:root:(1 points) Checking R('all.equal(dnaTransform(test$test17), sol$test17)')[0]
+ERROR:root:... Expecting: True
+ERROR:root:... But got:   target is NULL, current is character
+INFO:root:Executed R('temp2 <- dnaTransform(test$test18)')
+ERROR:root:(1 points) Checking R('all.equal(length(temp2), 2)')[0]
+ERROR:root:... Expecting: True
+ERROR:root:... But got:   Mean absolute difference: 2
+ERROR:root:(1 points) Checking R('all.equal(dnaTransform(test$test18), sol$test18)')[0]
+ERROR:root:... Expecting: True
+ERROR:root:... But got:   target is NULL, current is character
+INFO:root:Executed R('temp3 <- dnaTransform(test$test19)')
+ERROR:root:(1 points) Checking R('all.equal(length(temp3), 2)')[0]
+ERROR:root:... Expecting: True
+ERROR:root:... But got:   Mean absolute difference: 2
+ERROR:root:(1 points) Checking R('all.equal(dnaTransform(test$test19), sol$test19)')[0]
+ERROR:root:... Expecting: True
+ERROR:root:... But got:   target is NULL, current is character
+INFO:root:You got a 0 out of 22.

@@ -129,6 +129,19 @@
                     "earned": 0
                 }
             }
+        }, 
+        "quiz3": {
+            "note": "", 
+            "hash": "060ca2d4018a1850b50d2891f19e2587cc800a4c", 
+            "earned": 0, 
+            "possible": 22, 
+            "penalty": 0, 
+            "parts": {
+                "quiz3": {
+                    "possible": 22, 
+                    "earned": 0
+                }
+            }
         }
     }, 
     "section": "audit"
